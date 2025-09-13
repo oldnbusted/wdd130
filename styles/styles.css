@@ -18,7 +18,7 @@ h1 {
 }
 
 aside {
-    width: 600;
+    width: 600px;
     margin: 10px;
     border: 1px dotted rgb(32, 0, 88);
     padding: 15px;
@@ -34,8 +34,6 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    box-shadow: 0 0 30px gray;
 }
 
 p {
