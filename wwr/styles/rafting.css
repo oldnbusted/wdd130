@@ -104,18 +104,28 @@ h1 {
     margin-left: 10px;
 }
 
+#adventures {
+    display: flex;
+}
+
+#adventures img {
+    max-width: 100%;
+    height: auto;
+}
+
 footer {
-    /* display: flex; */
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-/* footer p {
-    text-align: center;
-} */
+footer nav, footer div {
+    flex: 1;
+}
 
 footer nav {
-    float: right;
+    display: flex;
+    justify-content: right;
 }
 
 .socialmedia img {
@@ -126,7 +136,7 @@ footer nav {
 
 #history {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
     grid-template-rows: auto auto;
     align-items: center;
 }
@@ -150,5 +160,5 @@ footer nav {
     grid-row: 2/3;
     grid-column: 2/3;
     width: 200px;
-    height: 100px;
+    height: auto;
 }
