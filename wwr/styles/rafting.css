@@ -105,12 +105,25 @@ h1 {
 }
 
 #adventures {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#adventures h2 {
+    grid-column: 1 / -1;
+    text-align: left;
+    padding-bottom: 1rem;
 }
 
 #adventures img {
     max-width: 100%;
     height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
 }
 
 footer {
