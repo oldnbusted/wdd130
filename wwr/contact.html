@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Justin Reimers">
+    <meta name="description" content="Contact us at H2Oardventures.">
+    <title>Contact Us - H2Oardventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-crossedoars.png"
+            alt="H2Oardventures logo - gray picture of people in a whitewater raft in front of crossed oars">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>H2Oardventures - We love rafting!</h1>
+            <p>123 Sesame St<br>
+                Whitewater, California<br>
+                +1 (555) 555-5555<br>
+                info@h2oardventures.com</p>
+        </div> <!-- contact div -->
+        <section id="inquiry">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.301982467441!2d-122.68268951612255!3d38.29567059929841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085b52b92b83943%3A0xfde21baf60f1452a!2s123%20Sesame%20St%2C%20Penngrove%2C%20CA%2094951!5e0!3m2!1sen!2sus!4v1759622586682!5m2!1sen!2sus"
+                width="400" height="400" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="" method="GET">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <fieldset>
+
+
+                    <div class="column1"></div> <!-- empty div to help with spacing -->
+                    <label class="column2"><input type="radio" id="general-inquiry" name="message-purpose"
+                            value="general-inquiry" required>General Inquiry</label>
+                    <legend class="column1">Message Purpose</legend>
+                    <label class="column2"><input type="radio" id="reservation-question" name="message-purpose"
+                            value="reservation-question">Reservation Question</label>
+                    <div class="column1"></div> <!-- empty div to help with spacing -->
+                    <label class="column2"><input type="radio" id="website-suggestion" name="message-purpose"
+                            value="website-suggestion">Website Suggestion</label>
+                </fieldset>
+                <label for="message" class="both-columns">Message</label>
+                <textarea class="both-columns" id="message" name="message" rows="4" required
+                    placeholder="Type here"></textarea>
+                <label class="both-columns"><input type="checkbox" id="subscribe" name="subscribe">Please subscribe me
+                    to the monthly newsletter</label>
+
+                <button type="submit" class="both-columns">Get in Touch!</button>
+            </form>
+        </section>
+        <section id="employees">
+            <h2>We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/justin-reimers.jpg" alt="Picture of Justin Reimers" width="">
+                <figcaption>Employee #3</figcaption>
+            </figure>
+            <figure>
+                <img src="images/justin-reimers.jpg" alt="Picture of Justin Reimers" width="">
+                <figcaption>Employee #3</figcaption>
+            </figure>
+            <figure>
+                <img src="images/justin-reimers.jpg" alt="Picture of Justin Reimers" width="">
+                <figcaption>Employee #3</figcaption>
+            </figure>
+        </section> <!-- employees section -->
+    </main>
+    <footer>
+        <div></div> <!-- empty div to help with spacing -->
+        <p>&copy;2025 | H2Oardventures | Justin Reimers</p>
+        <nav class=" socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook-square.svg" alt="Facebook logo">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="images/linkedin-square.svg" alt="Linkedin logo">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram-square.svg" alt="Instagram logo">
+            </a>
+        </nav>
+
+    </footer>
+</body>
+
+</html>

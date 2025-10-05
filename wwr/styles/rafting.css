@@ -79,7 +79,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -174,4 +174,76 @@ footer nav {
     grid-column: 2/3;
     width: 200px;
     height: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.contact p {
+    text-align: center;
+}
+
+#inquiry {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+#inquiry form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inquiry fieldset {
+    display: contents;
+}
+
+inquiry fieldset legend {
+    grid-column: 1 / 2;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.column1 {
+    grid-column: 1 / 2;
+}
+.column2 {
+    grid-column: 2 / 3;
+}
+
+.both-columns {
+    grid-column: 1 / 3;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+#employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+}
+
+#employees h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#employees figure {
+    margin: 0 auto;
+    border: 1px solid var(--primary-color);
 }
