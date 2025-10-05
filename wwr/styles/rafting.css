@@ -190,7 +190,7 @@ footer nav {
 #inquiry {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    column-gap: 30px;
 }
 
 #inquiry form {
@@ -244,5 +244,11 @@ input[type="checkbox"], input[type="radio"] {
 
 #employees figure {
     margin: 0 auto;
+    border: 1px solid var(--primary-color);
+}
+
+#employees img {
+    width: 200px;
+    height: 200px;
     border: 1px solid var(--primary-color);
 }
