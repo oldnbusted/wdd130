@@ -205,17 +205,16 @@ footer nav {
     display: contents;
 }
 
-inquiry fieldset legend {
+#inquiry fieldset legend {
     grid-column: 1 / 2;
-    text-align: center;
-    font-weight: bold;
-    margin: auto;
+    grid-row: 3 / 6;
 }
 
-.column1 {
+#inquiry div {
     grid-column: 1 / 2;
 }
-.column2 {
+
+#inquiry fieldset label {
     grid-column: 2 / 3;
 }
 
