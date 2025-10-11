@@ -292,13 +292,13 @@ input[type="checkbox"], input[type="radio"] {
     height: 200px;
 }
 
-#day-trips, #camping, #waving, #offerings{
+#day-trips, #camping, #waving, #offerings, #welcome, #who-we-are {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
 }
 
-#day-trips h2, #camping h2, #waving h2 {
+#day-trips h2, #camping h2, #waving h2, #welcome h2, #who-we-are h2 {
     position: absolute;
     top: 20px;
     left: 330px;
@@ -306,12 +306,12 @@ text-decoration: underline;
 font-style: italic;
 }
 
-#camping h2 {
+#camping h2, #who-we-are h2 {
     right: 330px;
     left: auto;
 }
 
-#day-trips img, #camping img, #waving img {
+#day-trips img, #camping img, #waving img, #welcome img, #who-we-are img {
     grid-column: 1/2;
     grid-row: 1/2;
     height: 300px;
@@ -319,12 +319,12 @@ font-style: italic;
     margin-bottom: 30px;
 }
 
-#camping img {
+#camping img, #who-we-are img {
     grid-column: 3/4;
 }
 
 
-#day-trips article, #camping article, #waving article {
+#day-trips article, #camping article, #waving article, #welcome article, #who-we-are article {
 position: absolute;
 bottom: 5px;
 right: -8px;
@@ -336,7 +336,7 @@ text-shadow: #fff 0px 0px 3px;
 font-weight: bold;
 }
 
-#camping article {
+#camping article, #who-we-are article {
     left: -8px;
     right: auto;
 }
