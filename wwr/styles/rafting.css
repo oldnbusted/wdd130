@@ -189,6 +189,7 @@ footer nav {
 #history h2{
     grid-row: 1/2;
     grid-column: 1/2;
+    text-align: left;
 }
 
 #history-paragraph-1 {
@@ -240,8 +241,7 @@ footer nav {
     align-items: center;
 }
 
-#inquiry fieldset, #
-subscribe fieldset {
+#inquiry fieldset, #subscribe fieldset {
     display: contents;
     border: none;
 }
@@ -300,7 +300,7 @@ input[type="checkbox"], input[type="radio"] {
 
 #day-trips h2, #camping h2, #waving h2 {
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 330px;
 text-decoration: underline;
 font-style: italic;
@@ -364,7 +364,7 @@ thead {
 
 thead th {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
 }
 
 th,
@@ -378,7 +378,7 @@ td:last-of-type {
 }
 
 tbody>tr:nth-of-type(even) {
-    background-color: var(--accent-color2)30;
+    background-color: #ddd;
 }
 
 tfoot th {
