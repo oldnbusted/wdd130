@@ -24,42 +24,29 @@
         </nav>
     </header>
     <main>
-        <div class="contact">
+        <div class="hero">
+            <img src="images/hero_transparency_1024.webp" alt="Three whitewater rafts in choppy river water">
             <h1>H2Oardventures - We love rafting!</h1>
-            <p>123 Sesame St<br>
-                Whitewater, California<br>
-                +1 (555) 555-5555<br>
-                info@h2oardventures.com</p>
-        </div> <!-- contact div -->
-        <section id="inquiry">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.301982467441!2d-122.68268951612255!3d38.29567059929841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085b52b92b83943%3A0xfde21baf60f1452a!2s123%20Sesame%20St%2C%20Penngrove%2C%20CA%2094951!5e0!3m2!1sen!2sus!4v1759622586682!5m2!1sen!2sus"
-                width="450" height="600" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <form action="dosomething.php" method="GET">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <fieldset>
-                    <legend class="column1">Message Purpose</legend>
-                    <label><input type="radio" id="general-inquiry" name="message-purpose" value="general-inquiry"
-                            required>General Inquiry</label>
-
-                    <label class="column2"><input type="radio" id="reservation-question" name="message-purpose"
-                            value="reservation-question">Reservation Question</label>
-                    <label><input type="radio" id="website-suggestion" name="message-purpose"
-                            value="website-suggestion">Website Suggestion</label>
-                </fieldset>
-                <label for="message" class="both-columns">Message</label>
-                <textarea class="both-columns" id="message" name="message" rows="4" required
-                    placeholder="Type here"></textarea>
-                <label class="both-columns"><input type="checkbox" id="subscribe" name="subscribe">Please subscribe me
-                    to the monthly newsletter</label>
-
-                <button type="submit" class="both-columns">Get in Touch!</button>
+            <form action="trips.html">
+                <label for="book">Come get wet with us!</label>
+                <button type="submit" name="book">Book Your Oardventure</button>
             </form>
-        </section>
+
+        </div> <!-- hero div -->
+
+        <section id="subscribe">
+            <h2>Subscribe to Our Newsletter!</h2>
+            <form action=" dosomething.php" method="GET">
+                <fieldset>
+                    <legend>Subscribe to our monthly newsletter</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit" class="both-columns">Subscribe me!</button>
+                </fieldset>
+            </form>
+        </section> <!-- subscribe section -->
         <section id="employees">
             <h2>We Are Here to Serve You</h2>
             <figure>
