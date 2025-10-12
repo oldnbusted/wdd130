@@ -66,6 +66,20 @@ nav, p, section, article {
     padding: 0;
 }
 
+article {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 75%;
+    font-size: 1.4rem;
+    border: 2px solid var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: #fff 0px 0px 3px;
+    font-weight: bold;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -131,6 +145,13 @@ nav, p, section, article {
     opacity: .86;
     margin: 10px;
     padding: 0px 10px;
+    right: auto;
+    width: auto;
+    font-size: 1rem;
+    border: none;
+    text-shadow: none;
+    font-weight: bold;
+    box-shadow: none
 }
 
 .hero article img {
@@ -327,21 +348,6 @@ font-style: italic;
 
 #camping img, #who-we-are img {
     grid-column: 3/4;
-}
-
-
-#day-trips article, #camping article, #waving article, #welcome article, #who-we-are article {
-    position: absolute;
-    bottom: 5px;
-    right: 0;
-    width: 75%;
-    font-size: 1.4rem;
-    border: 2px solid var(--primary-color);
-    background-color: rgba(255, 255, 255, 0.5);
-    text-shadow: #fff 0px 0px 3px;
-    font-weight: bold;
-    padding: 5px 10px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 #camping article, #who-we-are article {
