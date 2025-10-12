@@ -58,11 +58,12 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
+    margin-bottom: 8px;
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+nav, p, article {
+    margin: 16px 0px;
+    padding: 0;
 }
 
 .socialmedia a {
@@ -82,6 +83,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 1.5rem;
 }
 
 .hero h1 {
@@ -219,7 +221,7 @@ footer nav {
     text-align: center;
 }
 
-#inquiry {
+#inquiry, #subscribe {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
@@ -246,7 +248,7 @@ footer nav {
     border: none;
 }
 
-#inquiry fieldset legend, #subscribe fieldset legend {
+#inquiry fieldset legend {
     grid-column: 1 / 2;
     grid-row: 3 / 6;
 }
@@ -255,7 +257,7 @@ footer nav {
     grid-column: 1 / 2;
 }
 
-#inquiry fieldset label, #subscribe fieldset label {
+#inquiry fieldset label {
     grid-column: 2 / 3;
 }
 
@@ -317,6 +319,8 @@ font-style: italic;
     height: 300px;
     width: auto;
     margin-bottom: 30px;
+    border: 4px solid var(--secondary-color);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 #camping img, #who-we-are img {
@@ -325,19 +329,21 @@ font-style: italic;
 
 
 #day-trips article, #camping article, #waving article, #welcome article, #who-we-are article {
-position: absolute;
-bottom: 5px;
-right: -8px;
-width: 75%;
-font-size: 1.4rem;
-border: 2px solid var(--primary-color);
-background-color: rgba(255, 255, 255, 0.5);
-text-shadow: #fff 0px 0px 3px;
-font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 75%;
+    font-size: 1.4rem;
+    border: 2px solid var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: #fff 0px 0px 3px;
+    font-weight: bold;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 #camping article, #who-we-are article {
-    left: -8px;
+    left: 0;
     right: auto;
 }
 
@@ -367,8 +373,7 @@ thead th {
     color: white;
 }
 
-th,
-td {
+th, td {
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
 }
